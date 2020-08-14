@@ -46,6 +46,9 @@ qiskit.__qiskit_version__
 
 This should display a dictionary containing the version numbers of every part of the Qiskit SDK.
 
+## Running on IBM quantum systems
+
+If you would like to run on IBM's quantum systems, you have to create an IBM Quantum Experience Account first. The account can be obtained [here](https://quantum-computing.ibm.com/login "IBM Quantum Experience"). After obtaining an account activate the virtual environment in which you installed Qiskit, and follow the instructions [here](https://qiskit.org/documentation/install.html#access-ibm-quantum-systems "Saving the API token") to store your API token on your local machine.
 
 ## Authors
 
