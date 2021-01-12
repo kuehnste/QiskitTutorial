@@ -3,7 +3,7 @@
 Basic Qiskit tutorials prepared for the DESY workshop on quantum computing. Content will be added shortly before the tutorial.
 
 ## Prerequisites
-[Qiskit](https://github.com/Qiskit/qiskit "Qiskit") requires Python 3.5 or later. If you do not have Python, we recommend installing [Anaconda](https://www.anaconda.com/products/individual "Anaconda Individual Edition").
+[Qiskit](https://github.com/Qiskit/qiskit "Qiskit") requires Python 3.6 or later. If you do not have Python, we recommend installing [Anaconda](https://www.anaconda.com/products/individual "Anaconda Individual Edition").
 
 To separate Qiskit from existing Python packages, we recommend setting up a virtual environment. If you are using Anaconda, you can follow the instructions [here](https://qiskit.org/documentation/install.html "Qiskit Installation Instructions"). If you are using pip, instructions how to create a virtual environment can be found [here](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/).
 After creating a new environment, activate it and make sure you have the latest version of pip. To do so run 
