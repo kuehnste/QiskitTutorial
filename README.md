@@ -1,8 +1,12 @@
 # QiskitTutorial
 
-Basic Qiskit tutorials prepared for the DESY workshop on quantum computing. Content will be added shortly before the tutorial.
+Basic Qiskit tutorials prepared for the quantum computing block course at RWTH.
 
-## Prerequisites
+## Running Qiskit
+
+For the tutorials we are going to use [Qiskit](https://github.com/Qiskit/qiskit "Qiskit"). There are two options to work with Qiskit. The first one is to install it locally on your machine. The second option is to obtain an IBMQ account for IBM's quantum experience and use the IBM Quantum Lab to run the notebooks. Both options are described below.
+
+### Prerequisites for running locally and installation instructions
 [Qiskit](https://github.com/Qiskit/qiskit "Qiskit") requires Python 3.6 or later. If you do not have Python, we recommend installing [Anaconda](https://www.anaconda.com/products/individual "Anaconda Individual Edition").
 
 To separate Qiskit from existing Python packages, we recommend setting up a virtual environment. If you are using Anaconda, you can follow the instructions [here](https://qiskit.org/documentation/install.html "Qiskit Installation Instructions"). If you are using pip, instructions how to create a virtual environment can be found [here](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/).
@@ -35,7 +39,7 @@ pip install jupyterlab
 
 in case you do not use Anaconda.
 
-## Testing your Qiskit installation
+### Testing your localQiskit installation
 
 To check if the installation was successful, you can now start a Python prompt or a Jupyter notebook and run the following commands
 
@@ -46,9 +50,15 @@ qiskit.__qiskit_version__
 
 This should display a dictionary containing the version numbers of every part of the Qiskit SDK.
 
-## Running on IBM quantum systems
+### Obtaining an account for IBM Quantum Experience 
 
-If you would like to run on IBM's quantum systems, you have to create an IBM Quantum Experience Account first. The account can be obtained [here](https://quantum-computing.ibm.com/login "IBM Quantum Experience"). After obtaining an account activate the virtual environment in which you installed Qiskit, and follow the instructions [here](https://qiskit.org/documentation/install.html#access-ibm-quantum-systems "Saving the API token") to store your API token on your local machine.
+If you would like use IBM Quantum Lab or to run on IBM's quantum systems, you have to create an IBM Quantum Experience Account first. The account can be obtained [here](https://quantum-computing.ibm.com/login "IBM Quantum Experience"). 
+
+To use IBM Quantum Lab log into your account, locate the IBMQ Quantum Lab on your dashborad and click on "Launch Lab".
+
+## Using IBM's quantum hardware
+
+After obtaining an IBM Quantum Experience Account follow the instructions [here](https://quantum-computing.ibm.com/lab/docs/iql/manage/account/ibmq "Saving the API token") to store your API token machine. Afterwards you can access the openly available quantum devices as described on the website.
 
 ## Authors
 
