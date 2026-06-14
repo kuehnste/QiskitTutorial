@@ -7,9 +7,9 @@ Basic Qiskit tutorials prepared for the quantum computing block course at RWTH.
 For the tutorials we are going to use [Qiskit](https://github.com/Qiskit/qiskit "Qiskit"). There are two options to work with Qiskit. The first one is to install it locally on your machine. The second option is to obtain an IBMQ account for IBM's quantum experience and use the IBM Quantum Lab to run the notebooks. Both options are described below.
 
 ### Prerequisites for running locally and installation instructions
-[Qiskit](https://github.com/Qiskit/qiskit "Qiskit") requires Python 3.6 or later. If you do not have Python, we recommend installing [Anaconda](https://www.anaconda.com/products/individual "Anaconda Individual Edition").
+[Qiskit](https://github.com/Qiskit/qiskit "Qiskit") requires Python 3.10 or later. If you do not have Python, we recommend installing the latest stable version [here](https://www.python.org/downloads/ "Python download").
 
-To separate Qiskit from existing Python packages, we recommend setting up a virtual environment. If you are using Anaconda, you can follow the instructions [here](https://qiskit.org/documentation/install.html "Qiskit Installation Instructions"). If you are using pip, instructions how to create a virtual environment can be found [here](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/).
+To separate Qiskit from existing Python packages, we recommend setting up a virtual environment. Instructions how to create a virtual environment can be found [here](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/).
 After creating a new environment, activate it and make sure you have the latest version of pip. To do so run 
 
 ```
@@ -28,16 +28,9 @@ pip install qiskit[visualization]
 Throughout the tutorial we will work with [Jupyter Notebooks](https://jupyter.org/ "Jupyter") which can be installed via 
 
 ```
-conda install -c conda-forge jupyterlab
-```
-
-in case you are using Anaconda, or via 
-
-```
 pip install jupyterlab
+pip install notebook
 ```
-
-in case you do not use Anaconda.
 
 ### Testing your localQiskit installation
 
