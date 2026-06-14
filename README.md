@@ -23,7 +23,11 @@ pip install qiskit
 pip install qiskit[visualization]
 ```
 
-(if you are using zsh, the last part needs to be in quotes).
+(if you are using zsh, the last part needs to be in quotes). In addition, Aer, a quantum circuit simulator can be handy for performing classical numerical simulations. It can be installed via
+
+```
+pip install qiskit-aer
+```
 
 Throughout the tutorial we will work with [Jupyter Notebooks](https://jupyter.org/ "Jupyter") which can be installed via 
 
